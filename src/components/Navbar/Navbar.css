@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+
+.nav-wrapper {
+    background: rgba(0,0,0,0.1);
+    padding: 0.5rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    backdrop-filter: blur(50px);
+}
+
+.nav-content {
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 12rem;
+    height: auto;
+    font-family: "Tiny5",sans-serif;
+    font-weight: 600;
+}
+
+.nav-content ul {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    list-style: none;
+}
+
+.nav-content li {
+    margin: 0 1.5rem;
+}
+
+.menu-item {
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+}
+
+.menu-item::before {
+    content: " ";
+    width: 2rem;
+    height: 0.2rem;
+    background: linear-gradient(90deg, #4a90e2 0%, #296fd0 100%);
+    border-radius: 0.5rem;
+    position: absolute;
+    bottom: -0.6rem;
+    opacity: 0;
+    transform: translateX(-1.5rem);
+    transition: all 0.3s ease;
+}
+
+.menu-item:hover::before {
+    width: 100%;
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.contact-btn {
+    font-size: 0.9rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: linear-gradient(90deg, #4a90e2 0%, #296fd0 100%);
+    padding: 0.6rem 2rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+
+.contact-btn:hover {
+    color: #4a90e2;
+    background: #000;
+    outline: 1.5px solid #4a90e2;
+}
+
+.rate-btn {
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+}
+
+.menu-btn {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 0.4rem;
+    color: #fff;
+    background: linear-gradient(90deg, #4a90e2 0%, #296fd0 100%);
+    line-height: 0;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    display: none;
+}
+
+.menu-btn:hover {
+    color: #4a90e2;
+    background: #000;
+    outline: 1px solid #4a90e2;
+}
+
+@media (max-width: 425px) {
+
+    .logo {
+        width: 10rem;
+        height: auto;
+    }
+}
+
+@media (max-width: 769px) {
+
+    .menu-btn {
+        display: block;
+    }
+
+    .nav-content ul {
+        display: none;
+    }   
+}
+
+@media (max-width: 1325px) {
+
+    .nav-wrapper {
+        padding: 0 2rem;
+    }  
+}

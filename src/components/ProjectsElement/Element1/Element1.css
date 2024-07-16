@@ -1,0 +1,140 @@
+/* Styles par défaut */
+.element1-container {
+    margin: 8rem 0;
+    position: relative;
+}
+
+.element1-container h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3.5rem;
+    flex: 1;
+}
+
+.header-content {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Ajout pour une meilleure réactivité */
+}
+
+.buton {
+    font-size: 0.9rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: linear-gradient(90deg, #4a90e2 0%, #296fd0 100%);
+    padding: 0.6rem 2rem;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.buton:hover {
+    color: #4a90e2;
+    background: #000;
+    outline: 1.5px solid #4a90e2;
+}
+
+.element1-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 3rem;
+    flex-wrap: wrap; /* Ajout pour une meilleure réactivité */
+}
+
+.element1-description {
+    flex: 1;
+    background: #130f2a;
+    border-radius: 0.65rem;
+    border: 1.5px solid #4A90E2;
+    padding: 1.5rem;
+}
+
+.element1-image {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    padding-top: 8rem;
+}
+
+.element1-image img {
+    width: 100%;
+    border-radius: 1rem;
+    border: 2px solid #4A90E2; 
+}
+
+hr {
+    border: 1.5px solid #4A90E2;
+    margin: 20px 0;
+}
+
+.element1-description strong {
+    margin: 5px;
+    background-color: rgba(0,0,0,0.4); 
+    padding: 10px; 
+    border-radius: 5px;
+}
+
+.element1-description li {
+    margin: 0.5rem;
+}
+
+.element1-container::before,
+.element1-container::after {
+    content: " ";
+    width: 28.125rem;
+    height: 28.125rem;
+    border-radius: 28.125rem;
+    background: #4a90e2;
+    position: absolute;
+    z-index: -1;
+    filter: blur(225px);
+}
+
+.element1-container::after {
+    top: -3rem;
+    left: -5rem;
+}
+
+.element1-container::before {
+    bottom: 2rem;
+    right: 0rem;
+}
+
+/* Media queries pour la réactivité */
+@media (max-width: 768px) {
+    .element1-container {
+        margin: 4rem 0;
+    }
+
+    .element1-container h5 {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .header-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buton {
+        margin: 2rem;
+    }
+
+    .element1-content {
+        flex-direction: column;
+    }
+
+    .element1-image {
+        gap: 3rem;
+        padding-top: 2rem;
+    }
+
+    .element1-image img {
+        margin-bottom: 2rem;
+    }
+}

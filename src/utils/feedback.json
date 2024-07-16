@@ -1,0 +1,417 @@
+[
+  {
+    "name": "Alice",
+    "rating": 5,
+    "feedback": "Excellent service! Highly recommend."
+  },
+  {
+    "name": "Bob",
+    "rating": 4,
+    "feedback": "Great experience overall, but there's room for improvement."
+  },
+  {
+    "name": "Charlie",
+    "rating": 3,
+    "feedback": "Average service, nothing special."
+  },
+  {
+    "name": "David",
+    "rating": 2,
+    "feedback": "Not very satisfied with the service."
+  },
+  {
+    "name": "Eva",
+    "rating": 1,
+    "feedback": "Terrible experience. Would not recommend."
+  },
+  {
+    "name": "Frank",
+    "rating": 5,
+    "feedback": "Outstanding support and great service!"
+  },
+  {
+    "name": "Grace",
+    "rating": 4,
+    "feedback": "Very good, but there's always room for improvement."
+  },
+  {
+    "name": "Hank",
+    "rating": 3,
+    "feedback": "It was okay, nothing exceptional."
+  },
+  {
+    "name": "Ivy",
+    "rating": 2,
+    "feedback": "Not impressed with the quality."
+  },
+  {
+    "name": "Jack",
+    "rating": 1,
+    "feedback": "Worst experience ever."
+  },
+  {
+    "name": "Kathy",
+    "rating": 5,
+    "feedback": "Absolutely loved it!"
+  },
+  {
+    "name": "Leo",
+    "rating": 4,
+    "feedback": "Good service, but could be better."
+  },
+  {
+    "name": "Mona",
+    "rating": 3,
+    "feedback": "It was fine, not great."
+  },
+  {
+    "name": "Nick",
+    "rating": 2,
+    "feedback": "Below average experience."
+  },
+  {
+    "name": "Olivia",
+    "rating": 1,
+    "feedback": "Really bad service."
+  },
+  {
+    "name": "Paul",
+    "rating": 5,
+    "feedback": "Fantastic! Will come back again."
+  },
+  {
+    "name": "Quinn",
+    "rating": 4,
+    "feedback": "Quite good, but needs some improvements."
+  },
+  {
+    "name": "Rose",
+    "rating": 3,
+    "feedback": "It was acceptable."
+  },
+  {
+    "name": "Steve",
+    "rating": 2,
+    "feedback": "Didn't meet my expectations."
+  },
+  {
+    "name": "Tina",
+    "rating": 1,
+    "feedback": "Very disappointing experience."
+  },
+  {
+    "name": "Uma",
+    "rating": 5,
+    "feedback": "Amazing service and support!"
+  },
+  {
+    "name": "Vince",
+    "rating": 4,
+    "feedback": "Pretty good, but there's room for improvement."
+  },
+  {
+    "name": "Wendy",
+    "rating": 3,
+    "feedback": "It was average."
+  },
+  {
+    "name": "Xander",
+    "rating": 2,
+    "feedback": "Not satisfied with the service."
+  },
+  {
+    "name": "Yara",
+    "rating": 1,
+    "feedback": "Terrible experience overall."
+  },
+  {
+    "name": "Zack",
+    "rating": 5,
+    "feedback": "Loved every bit of it!"
+  },
+  {
+    "name": "Amy",
+    "rating": 4,
+    "feedback": "Very good, but could be better."
+  },
+  {
+    "name": "Ben",
+    "rating": 3,
+    "feedback": "It was okay."
+  },
+  {
+    "name": "Cathy",
+    "rating": 2,
+    "feedback": "Not a great experience."
+  },
+  {
+    "name": "Dan",
+    "rating": 1,
+    "feedback": "Horrible service."
+  },
+  {
+    "name": "Ellie",
+    "rating": 5,
+    "feedback": "Excellent! Will return."
+  },
+  {
+    "name": "Fred",
+    "rating": 4,
+    "feedback": "Good overall."
+  },
+  {
+    "name": "Gina",
+    "rating": 3,
+    "feedback": "It was decent."
+  },
+  {
+    "name": "Harry",
+    "rating": 2,
+    "feedback": "Not what I expected."
+  },
+  {
+    "name": "Iris",
+    "rating": 1,
+    "feedback": "Very poor experience."
+  },
+  {
+    "name": "James",
+    "rating": 5,
+    "feedback": "Outstanding!"
+  },
+  {
+    "name": "Karen",
+    "rating": 4,
+    "feedback": "Quite good."
+  },
+  {
+    "name": "Larry",
+    "rating": 3,
+    "feedback": "It was okay."
+  },
+  {
+    "name": "Megan",
+    "rating": 2,
+    "feedback": "Not very good."
+  },
+  {
+    "name": "Nathan",
+    "rating": 1,
+    "feedback": "Bad service."
+  },
+  {
+    "name": "Olga",
+    "rating": 5,
+    "feedback": "Amazing!"
+  },
+  {
+    "name": "Peter",
+    "rating": 4,
+    "feedback": "Good service."
+  },
+  {
+    "name": "Quincy",
+    "rating": 3,
+    "feedback": "Average experience."
+  },
+  {
+    "name": "Rachel",
+    "rating": 2,
+    "feedback": "Not great."
+  },
+  {
+    "name": "Sam",
+    "rating": 1,
+    "feedback": "Terrible."
+  },
+  {
+    "name": "Tara",
+    "rating": 5,
+    "feedback": "Excellent!"
+  },
+  {
+    "name": "Ulysses",
+    "rating": 4,
+    "feedback": "Pretty good."
+  },
+  {
+    "name": "Victoria",
+    "rating": 3,
+    "feedback": "It was fine."
+  },
+  {
+    "name": "Walter",
+    "rating": 2,
+    "feedback": "Not happy."
+  },
+  {
+    "name": "Xena",
+    "rating": 1,
+    "feedback": "Very bad."
+  },
+  {
+    "name": "Yusuf",
+    "rating": 5,
+    "feedback": "Loved it!"
+  },
+  {
+    "name": "Zoe",
+    "rating": 4,
+    "feedback": "Good, but could be better."
+  },
+  {
+    "name": "Aaron",
+    "rating": 3,
+    "feedback": "It was okay."
+  },
+  {
+    "name": "Bella",
+    "rating": 2,
+    "feedback": "Not very good."
+  },
+  {
+    "name": "Carter",
+    "rating": 1,
+    "feedback": "Terrible service."
+  },
+  {
+    "name": "Diana",
+    "rating": 5,
+    "feedback": "Outstanding service!"
+  },
+  {
+    "name": "Edward",
+    "rating": 4,
+    "feedback": "Very good."
+  },
+  {
+    "name": "Fiona",
+    "rating": 3,
+    "feedback": "It was average."
+  },
+  {
+    "name": "George",
+    "rating": 2,
+    "feedback": "Not satisfied."
+  },
+  {
+    "name": "Hannah",
+    "rating": 1,
+    "feedback": "Bad experience."
+  },
+  {
+    "name": "Ian",
+    "rating": 5,
+    "feedback": "Amazing service!"
+  },
+  {
+    "name": "Jenna",
+    "rating": 4,
+    "feedback": "Quite good."
+  },
+  {
+    "name": "Kevin",
+    "rating": 3,
+    "feedback": "It was okay."
+  },
+  {
+    "name": "Linda",
+    "rating": 2,
+    "feedback": "Not great."
+  },
+  {
+    "name": "Mark",
+    "rating": 1,
+    "feedback": "Terrible."
+  },
+  {
+    "name": "Nina",
+    "rating": 5,
+    "feedback": "Loved it!"
+  },
+  {
+    "name": "Oscar",
+    "rating": 4,
+    "feedback": "Pretty good."
+  },
+  {
+    "name": "Paula",
+    "rating": 3,
+    "feedback": "It was fine."
+  },
+  {
+    "name": "Quinn",
+    "rating": 2,
+    "feedback": "Not happy."
+  },
+  {
+    "name": "Rita",
+    "rating": 1,
+    "feedback": "Very bad."
+  },
+  {
+    "name": "Scott",
+    "rating": 5,
+    "feedback": "Excellent!"
+  },
+  {
+    "name": "Tina",
+    "rating": 4,
+    "feedback": "Good service."
+  },
+  {
+    "name": "massinissa",
+    "feedback": "bien",
+    "rating": 3
+  },
+  {
+    "name": "toufik",
+    "feedback": "colis",
+    "rating": 5
+  },
+  {
+    "name": "abouche",
+    "feedback": "tsina",
+    "rating": 5
+  },
+  {
+    "name": "moi ",
+    "feedback": "salut\n",
+    "rating": 3
+  },
+  {
+    "name": "lounis",
+    "feedback": "vivas",
+    "rating": 5
+  },
+  {
+    "name": "kjsdh",
+    "feedback": ";ldkdk;l",
+    "rating": 3
+  },
+  {
+    "name": "ali",
+    "feedback": "cc",
+    "rating": 3
+  },
+  {
+    "name": "juba ",
+    "feedback": "bien",
+    "rating": 3
+  },
+  {
+    "name": "yemma",
+    "feedback": "tres bien\n",
+    "rating": 5
+  },
+  {
+    "name": "idir ",
+    "feedback": "c est bien",
+    "rating": 4
+  },
+  {
+    "name": "amin ",
+    "feedback": "l3alits ",
+    "rating": 5
+  }
+]

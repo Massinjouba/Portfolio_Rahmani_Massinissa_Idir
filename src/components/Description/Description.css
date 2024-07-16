@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+
+.My-name {
+    font-family: 'Tiny5', sans-serif;
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    animation: animate 2s linear infinite;
+}
+
+#My-name span:nth-child(1) {
+    animation-delay:0s;
+}
+#My-name span:nth-child(2) {
+    animation-delay:0.5s;
+}
+#My-name span:nth-child(3) {
+    animation-delay:1s;
+}
+#My-name span:nth-child(4) {
+    animation-delay:1.5s;
+}
+#My-name span:nth-child(5) {
+    animation-delay:2s;
+}
+#My-name span:nth-child(6) {
+    animation-delay:2.5s;
+}
+#My-name span:nth-child(7) {
+    animation-delay:3s;
+}
+#My-name span:nth-child(8) {
+    animation-delay:3.5s;
+}
+#My-name span:nth-child(9) {
+    animation-delay:4s;
+}
+#My-name span:nth-child(10) {
+    animation-delay:4.5s;
+}
+
+#My-name {
+    padding: 0;
+    color: #111;
+}
+
+.description-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.description-container::before,.description-container::after {
+
+    content: " ";
+    width: 28.125rem;
+    height: 28.125rem;
+    border-radius: 28.125rem;
+    background: #4a90e2;
+    position: absolute;
+    z-index: -1;
+    filter: blur(225px);
+}
+
+.description-container::after {
+
+    top: -3rem;
+    left: -5rem;
+}
+
+.description-container::before {
+    bottom: 2rem;
+    right: 0rem;
+}
+
+.description-content {
+
+    flex: 1;
+}
+
+.description-content h2, #My-name {
+
+    font-size: 3.8rem;
+    font-weight: 600;
+    line-height: 5rem;
+    margin-bottom: 1rem;
+}
+
+.description-content p {
+    width: 80%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin-top: 1rem;
+}
+
+.My-pic {
+
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.My-pic > div {
+
+    display: flex;
+    align-items: flex-end;
+    gap: 2rem;
+}
+
+.My-pic > div > img {
+
+    width: 20rem;
+    transition: all 0.3s ease;
+}
+
+.tech-icon {
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0.65rem;
+    border: 1.5px solid #4a90e2;
+}
+
+.tech-icon img {
+
+    width: 3rem;
+    height: auto;
+    transition: all 0.3s ease;
+}
+
+.My-pic > div > img:hover,.tech-icon img:hover {
+
+    transform: translateY(-0.5rem);
+}
+
+@keyframes animate {
+    0%,100%
+    {
+        color: #fff;
+        filter: blur(2px);
+        text-shadow: 0 0 10px #00b3ff,
+                    0 0 20px #00b3ff,
+                    0 0 40px #00b3ff,
+                    0 0 80px #00b3ff,
+                    0 0 120px #00b3ff,
+                    0 0 200px #00b3ff,
+                    0 0 300px #00b3ff;
+    }
+    30%,80%
+    {
+        color: #111;
+        filter: blur(0px);
+        text-shadow: 0 0 10px #060417,
+                    0 0 25px #060417,
+                    0 0 40px #060417;
+    }
+}
+
+@media (max-width: 1025px) {
+    .description-content h2,#My-name {
+
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .description-content p {
+
+        font-size: 0.9rem;
+        line-height: 1.6rem;
+    }
+
+    .hero-img > div > img {
+
+        width: 20rem;
+    }
+
+    .tech-icon {
+
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .tech-icon img {
+
+        width: 2.5rem;
+    }
+}
+
+@media (max-width: 760px) {
+
+    #My-name {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .description-container {
+
+        flex-direction: column;
+    }
+
+    .My-pic > div > img {
+
+        width: 13rem;
+    }
+
+    .tech-icon {
+
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .tech-icon img {
+
+        width: 2rem;
+    }
+
+    .My-pic {
+        margin: 2rem 0 2rem 0;
+    }
+
+    .description-container h2 {
+
+        margin-top: 3rem;
+    }
+
+    #My-name {
+        margin-top: 1rem;
+    }
+
+    .description-content h2,.description-content p,#My-name {
+        
+        width: auto;
+        text-align: center;
+    }
+
+    .description-container::after,.description-container::before{
+
+        content: " ";
+        width: 18rem;
+        height: 18rem;
+    }
+
+    .description-container::after {
+
+        top: 0rem;
+        left: 0rem;
+    }
+
+    .description-container::before {
+
+        bottom: 2rem;
+        right: 0rem;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .description-content h2, #My-name{
+
+            font-size: 2.2rem;
+            line-height: 3rem;
+    }
+
+    .description-content p {
+
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+    }
+
+    .My-pic {
+
+        gap: 1;
+    }
+
+    .My-pic > div {
+
+        gap: 1rem;
+    }
+}
