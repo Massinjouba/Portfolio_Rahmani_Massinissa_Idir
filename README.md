@@ -1,14 +1,15 @@
 # $\\color{red}{\\text{Projet de Portfolio Personnel}}$
-Ce projet vise à créer un portfolio personnel qui peut servir de preuve de compétences lors de la recherche d'emploi ou pour d'autres raisons. Le projet sera entièrement développé en utilisant React et Express.
+Voici mon portfolio personnel qui est fait avec un design entièrement responsif, s'adaptant à tous les appareils. Le projet est entièrement développé en utilisant React et Express.
 
 ## $\\color{blue}{\\text{Contenu du Projet}}$
 Le portfolio comprend les éléments suivants :
 ####  ✅ Une page d'accueil avec une photo et une brève présentation de vous et de vos compétences.
 ####  ✅ Un en-tête montrant les liens vers les autres pages du portfolio.
-####  ✅ Un pied de page montrant les liens vers votre profil GitHub et LinkedIn.
+####  ✅ Un pied de page montrant les liens vers mon profil GitHub et LinkedIn.
 ####  ✅ Une page pour chaque projet avec une description claire et une liste des technologies utilisées (minimum 2 projets et maximum 3).
 ####  ✅ Une page de contact avec un formulaire validé.
-####  ✅ Des pages de témoignages où les visiteurs peuvent laisser des messages (une page pour afficher la liste des témoignages et une page pour laisser/modifier un témoignage).
+####  ✅ Des pages de témoignages où les visiteurs peuvent laisser des messages.
+####  ✅ Une popup pour ajoute un témoignage
 
 ## $\\color{blue}{\\text{Technologies Utilisées}}$
 ####  ✅ React
