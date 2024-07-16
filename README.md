@@ -44,5 +44,4 @@ npm run dev
 ## $\\color{blue}{\\text{Contact}}$
 #### ✅ Nom : Rahmani Massinissa Idir
 #### ✅ Email : massinissaidirr@gmail.com
-#### ✅ Adresse : 399 rue Plouffe, Gatineau, QC J8P 4B8, Canada, appartement 2
 
