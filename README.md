@@ -1,4 +1,4 @@
-# Projet de Portfolio Personnel
+# <span style="color: red;">Projet de Portfolio Personnel</span>
 Ce projet vise à créer un portfolio personnel qui peut servir de preuve de compétences lors de la recherche d'emploi ou pour d'autres raisons. Le projet sera entièrement développé en utilisant React et Express.
 
 ## Contenu du Projet
@@ -39,7 +39,7 @@ npm run dev
 ```
 
 ## Captures d'Écran
-
+![Capture d’écran 2024-07-16 002538](https://github.com/user-attachments/assets/1ae49acd-1e7b-40c1-a151-ab657a269821)
 
 ### Contact
 #### Nom : Rahmani Massinissa Idir
