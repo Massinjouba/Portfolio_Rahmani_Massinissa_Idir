@@ -30,6 +30,9 @@ npm install
 ## $\\color{blue}{\\text{Lancer le Projet}}$
 #### Démarrer le serveur Express :
 ```bash
+cd server
+```
+```bash
 node server
 ```
 
