@@ -1,4 +1,4 @@
-# <span style="color: red;">Projet de Portfolio Personnel</span>
+# $\\color{blue}{\\text{Projet de Portfolio Personnel}}$
 Ce projet vise à créer un portfolio personnel qui peut servir de preuve de compétences lors de la recherche d'emploi ou pour d'autres raisons. Le projet sera entièrement développé en utilisant React et Express.
 
 ## Contenu du Projet
